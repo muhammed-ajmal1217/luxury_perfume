@@ -770,7 +770,6 @@ export default function App() {
   const [selectedPerfume, setSelectedPerfume] = useState(null);
 
   useScrollAnimation();
-
   const handleBottleClick = () => {
     if (spinning) return;
     setSpinning(true);
